@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-wrapper {
+    height: 5rem;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.navbar{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10rem;
+    padding-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav a {
+    text-decoration: none;
+    color:#4A4A4A;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.main {
+    height: 600px;
+    width: 100%;
+    background-image: url("https://i.hizliresim.com/rujklck.png");
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-title {
+    margin-left: 5rem;
+    padding-top: 5rem;
+    height: 25rem;
+    width: 20rem;
+}
+
+.page-title h1 {
+    font-size: 63px;
+    letter-spacing: -5px;
+}
+
+.page-title p {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1rem;
+}
+
+.img-container {
+    margin-top: 5rem;
+    margin-left: 7rem;
+}
+
+.img-container2  {
+    float: left;
+}
+
+.img-container2 div {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.img-container2 div p {
+    margin-bottom: 1rem;
+}
+
+.img-container2 div div h5 {
+    color: gray;
+}
+
+.add-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+.add-btn div {
+    cursor: pointer;
+}
+.share-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+.share-btn div {
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+    cursor: pointer;
+}
+
+.content {
+    margin-top: 10rem;
+    margin-left: 28rem;
+    width: 47%;
+}
+
+.content p {
+    margin-top: 3rem;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.dropcap {
+  padding-left: 5px;
+  padding-right: 10px;
+  float: left;
+  position: relative;
+  top: -0.25em;
+  margin-bottom: -0.5em;
+  margin-left: -6px;
+  margin-right: 2px;
+  font-size: 140px;
+}
+
+.img-container3 {
+    margin-left: 23rem;
+}
+
+.exercise-plan {
+    height: 300px;
+    width: 500px;
+    background-image: url("https://i.hizliresim.com/q4kn0h0.jpg");
+    margin-top: 4rem ;
+    margin-left: 32rem;
+}
+
+.exercise-plan p {
+    line-height: 30px;
+    margin-top: 3rem;
+}
+
+.exercise-plan span {
+    font-weight: bolder;
+}
+
+.moves {
+    margin-top: 3rem;
+}
+
+.moves-title {
+    display: flex;
+    flex-direction: row;
+    margin-left: 22.5rem;
+}
+
+.moves-title h1 {
+    margin-left: 2rem;
+}
+
+.moves-title div {
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(197, 193, 193);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #EF7F75;
+    font-weight: bolder;
+}
+
+.moves-explanation {
+    font-size: 20px;
+    width: 47%;
+    margin-left: 28rem;
+}
+
+.moves-explanation p {
+    margin-top: 2rem;
+}
+
+.moves-explanation p span {
+    font-weight: bolder;
+}
+
+.video-container {
+    margin-left: 28rem;
+    margin-top: 3rem;
+}
+
+.more-info {
+    margin-top: 3rem;
+    height: 3rem;
+    width: 640px;
+    margin-left: 28rem;
+    border: 1px solid rgb(201, 198, 198);
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: rgb(24, 24, 24);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.related-articles {
+    background-color: #F8F8F8;
+    height: 24rem;
+}
+
+.articles-container {
+    height: 400px;
+    width: 65%;
+    margin-left: 20rem;
+}
+
+.articles-container:first-child {
+    padding-top: 2.5rem;
+    color: rgb(82, 80, 80);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 2rem;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article {
+    width: 145px;
+    height: 270px;
+    margin-top: 2rem;
+    padding-right: 3rem;
+    border-right:1px solid rgb(235, 222, 222);
+    cursor: pointer;
+}
+
+.article:last-child {
+    border: none;
+}
+
+.article h3 {
+    margin-top: 0.5rem;
+    font-size: 24px;
+    letter-spacing: -2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: black;
+}
+
+.article h6 {
+    margin-bottom: 0.3rem;
+    color: rgb(88, 86, 86);
+    font-weight: 600;
+}
+
+footer {
+    height: 302px;
+    width: 100%;
+    background-color: #262626;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 85%;
+    width: 65%;
+    margin-left: 8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid rgb(73, 72, 72);
+}
+
+.footer-wrapper div {
+    margin-top: 2rem;
+}
+
+.footer-wrapper div * {
+    margin-bottom: 1.2rem;
+}
+
+.footer-wrapper a {
+    text-decoration: none;
+    color: rgb(236, 228, 228);
+    font-size: 14px;
+}
+
+.footer-wrapper li {
+    font-size: 10px;
+    color: rgb(190, 178, 178);
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer-end {
+    font-size: 10px;
+    color: rgb(190, 178, 178);
+    width: 65%;
+    height: 2.5rem;
+    margin-left: 8rem;
+    display: flex;
+    align-items: center;
+}
+
+.footer-end span {
+    margin-right: 0.7rem;
+    cursor: pointer;
+}
+
+.social-media {
+    margin-left: 6rem;
+    margin-top: 6rem;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-media * {
+    margin-right: 1rem;
+}
+
+.logo {
+    color: rgb(235, 229, 229);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4.2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
